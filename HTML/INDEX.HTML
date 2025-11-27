@@ -4,16 +4,162 @@
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>PAIPPA</title>
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
     </head>
     <body>
         <!--barra de navegación con boostrap-->
-        
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+  <div class="container-fluid">
+    <!-- <a class="navbar-brand" href="#">PAIPPA</a> -->
+
+    <a class="navbar-brand" href="INDEX.HTML">
+      <img src="../IMG/logo_encabezado_1419862853-0.png" alt="Logo de PAIPPA" width="40" height="50" class="d-inline-block align-text-center">
+      PAIPPA
+    </a>
+
+
+    
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="INDEX.HTML">Inicio</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Acerca de nosotros</a>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="localidades.html" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            Ferias de productores
+          </a>
+          <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+            <li><a class="dropdown-item" href="agricola.html">Agricola</a></li>
+            <li><a class="dropdown-item" href="apicultura.html">Apicola</a></li>
+            <li><a class="dropdown-item" href="ganaderia.html">Ganadera</a></li>
+            <li><a class="dropdown-item" href="horticultura.html">Horticola</a></li>
+            <li><hr class="dropdown-divider"></li>
+            <li><a class="dropdown-item" href="localidades.html">localidades</a></li>
+          </ul>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Agregar más</a>
+        </li>
+      </ul>
+      <form class="d-flex">
+        <input class="form-control me-2" type="search" placeholder="Búsqueda" aria-label="Search">
+        <button class="btn btn-outline-success" type="submit">Buscar</button>
+      </form>
+    </div>
+  </div>
+</nav>
+
         <!--carrousel con boostrap y afinity de canva-->
+        <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <img src="../IMG/Captura de pantalla 2025-11-04 155903.png" class="d-block w-100" alt="...">
+    </div>
+    <div class="carousel-item">
+      <img src="../IMG/Captura de pantalla 2025-11-04 155932.png" class="d-block w-100" alt="...">
+    </div>
+    <div class="carousel-item">
+      <img src="../IMG/Carrusel 3.png" class="d-block w-100" alt="set console">
+    </div>
+  </div>
+  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Previous</span>
+  </button>
+  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Next</span>
+  </button>
+</div>
 
 
         <!--crear secciones para diferentes noticias relevantes, crear pequeñas galerias-->
-
+<!-- Secciones de noticias relacionadas con los temas -->
+<section class="py-5">
+  <div class="container">
+    <h1 class="text-center mb-5">Noticias y Contenidos</h1>
+    
+    <!-- Sección Agricola -->
+    <div class="row mb-5">
+      <div class="col-md-6">
+        <img src="../IMG/tipos-de-agricultura.jpg" alt="Imagen de Agricola" class="img-fluid rounded">
+      </div>
+      <div class="col-md-6">
+        <h2>Agricola</h2>
+        <p>Descubre las últimas novedades en agricultura sostenible. Desde técnicas innovadoras para el cultivo de granos hasta consejos para optimizar la producción en terrenos locales. Mantente al día con tendencias que impulsan la agricultura moderna y ecológica.</p>
+        <p>En esta sección, exploramos cómo los productores agrícolas están adoptando tecnologías verdes para mejorar rendimientos y proteger el medio ambiente. ¡No te pierdas nuestras guías prácticas!</p>
+        <a href="agricola.html" class="btn btn-primary">Leer más</a>
+      </div>
+    </div>
+    
+    <!-- Sección Apicola -->
+    <div class="row mb-5">
+      <div class="col-md-6 order-md-2">
+        <img src="../IMG/apicultura.jpg" alt="Imagen de Apicola" class="img-fluid rounded">
+      </div>
+      <div class="col-md-6 order-md-1">
+        <h2>Apicola</h2>
+        <p>Todo sobre la apicultura y la producción de miel. Aprende sobre el cuidado de colmenas, la polinización natural y los beneficios de la miel orgánica para la salud y la economía local.</p>
+        <p>Enfocándonos en prácticas responsables, compartimos historias de apicultores exitosos y consejos para iniciar tu propio apiario. ¡Explora el dulce mundo de las abejas!</p>
+        <a href="apicultura.html" class="btn btn-primary">Leer más</a>
+      </div>
+    </div>
+    
+    <!-- Sección Ganadera -->
+    <div class="row mb-5">
+      <div class="col-md-6">
+        <img src="../IMG/ganaderia-extensiva.webp" alt="Imagen de Ganadera" class="img-fluid rounded">
+      </div>
+      <div class="col-md-6">
+        <h2>Ganadera</h2>
+        <p>Novedades en ganadería responsable. Desde alimentación balanceada para el ganado hasta estrategias para mejorar la cría y el bienestar animal en entornos rurales.</p>
+        <p>Descubre cómo los productores ganaderos están innovando para aumentar la productividad de manera sostenible, con énfasis en la salud del ganado y el impacto ambiental positivo.</p>
+        <a href="ganaderia.html" class="btn btn-primary">Leer más</a>
+      </div>
+    </div>
+    
+    <!-- Sección Horticola -->
+    <div class="row mb-5">
+      <div class="col-md-6 order-md-2">
+        <img src="../IMG/slider-4.jpg" alt="Imagen de Horticola" class="img-fluid rounded">
+      </div>
+      <div class="col-md-6 order-md-1">
+        <h2>Horticola</h2>
+        <p>Explora el mundo de la horticultura. Técnicas para cultivar verduras, frutas y flores, con consejos para jardines urbanos y rurales que promueven la autosuficiencia.</p>
+        <p>En esta sección, compartimos guías sobre riego eficiente, control de plagas naturales y el cultivo de productos orgánicos. ¡Inspírate para tu propio huerto!</p>
+        <a href="horticultura.html" class="btn btn-primary">Leer más</a>
+      </div>
+    </div>
+    
+    <!-- Sección Ingeniero Juarez -->
+    <div class="row mb-5">
+      <div class="col-md-6">
+        <img src="../IMG/ciudad-de-formosa.webp" alt="Imagen de Ingeniero Juarez" class="img-fluid rounded">
+      </div>
+      <div class="col-md-6">
+        <h2>Localidades Formoseñas</h2>
+        <p>Noticias y eventos específicos de las Localidades formoseñas. Conoce las ferias locales, iniciativas comunitarias y el impacto de las actividades agrícolas en estas regiones.</p>
+        <p>Desde reportajes sobre productores destacados hasta actualizaciones sobre proyectos de desarrollo sostenible, esta sección te mantiene conectado con lo que sucede en las Localidades formoseñas.</p>
+        <a href="localidades.html" class="btn btn-primary">Leer más</a>
+      </div>
+    </div>
+  </div>
+</section>
+ </body>
 
         <!--footer con boostrap-->
-    </body>
+        <footer class="bg-primary text-white text-center py-4">
+        <div class="container">
+            <h3>¡Únete a la Comunidad Ganadera!</h3>
+            <p>¿Quieres aprender más o compartir tus experiencias? Contacta con nosotros.</p>
+            <a href="loginycontacto.html"></a>
+        
+   
     </html>

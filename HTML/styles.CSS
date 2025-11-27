@@ -1,0 +1,8 @@
+/* Sobrescribir el fondo del footer a azul personalizado */
+.bg-success {
+    background-color: #003366 !important; /* Tu azul oscuro personalizado */
+}
+/* Asegurar letras blancas (ya está en Bootstrap, pero confirma) */
+footer .text-white {
+    color: white !important;
+}
